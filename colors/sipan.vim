@@ -91,6 +91,7 @@ hi String		ctermfg=113		cterm=none		guifg=#95e454	gui=none
 hi Comment		ctermfg=247		cterm=none		guifg=#9c998e	gui=none
 hi Todo			ctermfg=101		cterm=none		guifg=#857b6f	gui=none
 hi pythonBuiltin	ctermfg=194		cterm=none	guifg=#ffffc8	gui=none
+hi PythonSpaceError ctermbg=white	guibg=white
 
 
 " Links
