@@ -42,6 +42,7 @@ hi ErrorMsg		ctermfg=196		ctermbg=236		cterm=bold		guifg=#ff2026	guibg=#3a3a3a	g
 hi GitGutterAdd		ctermfg=155	ctermbg=232
 hi GitGutterDelete	ctermfg=197	ctermbg=232
 hi GitGutterChange	ctermfg=227	ctermbg=232
+hi GitGutterChangeDelete	ctermfg=227	ctermbg=232
 
 " Vim >= 7.0 specific colors
 if version >= 700
