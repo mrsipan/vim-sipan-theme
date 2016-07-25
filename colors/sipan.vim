@@ -39,6 +39,10 @@ hi SpecialKey	ctermfg=241		ctermbg=235		cterm=none		guifg=#626262	guibg=#2b2b2b	
 hi WarningMsg	ctermfg=203										guifg=#ff5f55
 hi ErrorMsg		ctermfg=196		ctermbg=236		cterm=bold		guifg=#ff2026	guibg=#3a3a3a	gui=bold
 
+hi GitGutterAdd		ctermfg=155	ctermbg=232
+hi GitGutterDelete	ctermfg=197	ctermbg=232
+hi GitGutterChange	ctermfg=227	ctermbg=232
+
 " Vim >= 7.0 specific colors
 if version >= 700
 hi CursorLine					ctermbg=236		cterm=none						guibg=#32322f
