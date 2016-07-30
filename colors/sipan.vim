@@ -37,7 +37,8 @@ hi StatusLineNC	ctermfg=245		ctermbg=238		cterm=none		guifg=#857b6f	guibg=#44444
 hi LineNr		ctermfg=241		ctermbg=232		cterm=none		guifg=#857b6f	guibg=#080808	gui=none
 hi SpecialKey	ctermfg=241		ctermbg=235		cterm=none		guifg=#626262	guibg=#2b2b2b	gui=none
 hi WarningMsg	ctermfg=203										guifg=#ff5f55
-hi ErrorMsg		ctermfg=196		ctermbg=236		cterm=bold		guifg=#ff2026	guibg=#3a3a3a	gui=bold
+hi ErrorMsg		ctermfg=201		ctermbg=236		cterm=none		guifg=#ff2026	guibg=#3a3a3a	gui=none
+hi Error		ctermfg=white		ctermbg=197		cterm=none		guifg=white	guibg=#f01b93	gui=none
 
 hi GitGutterAdd		ctermfg=155	ctermbg=232
 hi GitGutterDelete	ctermfg=197	ctermbg=232
