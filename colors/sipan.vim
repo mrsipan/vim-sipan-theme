@@ -45,6 +45,8 @@ hi GitGutterDelete	ctermfg=197	ctermbg=232
 hi GitGutterChange	ctermfg=227	ctermbg=232
 hi GitGutterChangeDelete	ctermfg=227	ctermbg=232
 
+hi SyntasticErrorSign ctermfg=197 ctermbg=232
+
 " Vim >= 7.0 specific colors
 if version >= 700
 hi CursorLine					ctermbg=236		cterm=none						guibg=#32322f
