@@ -62,7 +62,7 @@ hi DiffText						ctermbg=53		cterm=none						guibg=#73186e	gui=none
 hi DiffChange					ctermbg=237										guibg=#382a37
 
 "hi CursorIM
-"hi Directory
+hi Directory	ctermfg=229		ctermbg=232
 "hi IncSearch
 "hi Menu
 "hi ModeMsg
@@ -83,7 +83,8 @@ hi DiffChange					ctermbg=237										guibg=#382a37
 "hi User1
 "hi User9
 "hi WildMenu
-
+hi qfError	ctermfg=197		ctermbg=232
+hi qfSeparator	ctermfg=253	ctermbg=232
 
 " Syntax highlighting
 hi Keyword		ctermfg=111		cterm=none		guifg=#88b8f6	gui=none
