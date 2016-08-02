@@ -25,7 +25,6 @@ let colors_name = "sipan"
 " General colors
 hi normal		ctermfg=253		ctermbg=236		cterm=none		guifg=#e3e0d7	guibg=#242424	gui=none
 hi Cursor		ctermfg=232		ctermbg=208		cterm=none		guifg=Black	guibg=#ff8700	gui=none
-"hi Visual		ctermfg=251		ctermbg=239		cterm=none		guifg=#c3c6ca	guibg=#554d4b	gui=none
 hi Visual		ctermfg=157		ctermbg=238		cterm=none		guifg=#98fb98	guibg=#595959	gui=none
 hi VisualNOS	ctermfg=251		ctermbg=236		cterm=none		guifg=#c3c6ca	guibg=#303030	gui=none
 hi Search		ctermfg=255		ctermbg=204		cterm=none		guifg=White	guibg=#ff5996	gui=none
@@ -71,7 +70,7 @@ hi Directory	ctermfg=229		ctermbg=232
 "hi PmenuThumb
 "hi Question
 "hi Scrollbar
-"hi SignColumn
+hi link SignColumn	LineNr
 "hi SpellBad
 "hi SpellCap
 "hi SpellLocal
