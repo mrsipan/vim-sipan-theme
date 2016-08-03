@@ -45,6 +45,7 @@ hi GitGutterChange	ctermfg=227	ctermbg=232
 hi GitGutterChangeDelete	ctermfg=227	ctermbg=232
 
 hi SyntasticErrorSign ctermfg=197 ctermbg=232
+hi SyntasticWarningSign ctermfg=222 ctermbg=232
 
 " Vim >= 7.0 specific colors
 if version >= 700
@@ -71,10 +72,10 @@ hi Directory	ctermfg=229		ctermbg=232
 "hi Question
 "hi Scrollbar
 hi link SignColumn	LineNr
-"hi SpellBad
-"hi SpellCap
-"hi SpellLocal
-"hi SpellRare
+hi SpellBad		ctermfg=63	ctermbg=none	cterm=underline	guisp=#ff0000	gui=undercurl
+hi SpellLocal	ctermfg=28	ctermbg=none	cterm=underline	guisp=#00AA00	gui=undercurl
+hi SpellRare	ctermfg=201	ctermbg=none	cterm=underline	guisp=#ff00ff	gui=undercurl
+hi SpellCap		ctermfg=162	ctermbg=none	cterm=underline	guisp=#0087ff	gui=undercurl
 "hi TabLine
 "hi TabLineFill
 "hi TabLineSel
