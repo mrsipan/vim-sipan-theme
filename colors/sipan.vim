@@ -86,6 +86,9 @@ hi SpellCap		ctermfg=162	ctermbg=none	cterm=underline	guisp=#0087ff	gui=undercur
 hi qfError	ctermfg=197		ctermbg=232
 hi qfSeparator	ctermfg=253	ctermbg=232
 
+" UltiSnips whitespaces
+hi snipLeadingSpaces term=reverse ctermfg=56 ctermbg=243 gui=reverse guifg=#dc322f
+
 " Syntax highlighting
 hi Keyword		ctermfg=111		cterm=none		guifg=#88b8f6	gui=none
 hi Statement	ctermfg=111		cterm=none		guifg=#88b8f6	gui=none
