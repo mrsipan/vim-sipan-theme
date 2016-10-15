@@ -56,10 +56,10 @@ hi PmenuSel		ctermfg=232		ctermbg=192						guifg=#080808	guibg=#cae982
 endif
 
 " Diff highlighting
-hi DiffAdd						ctermbg=17										guibg=#2a0d6a
-hi DiffDelete	ctermfg=234		ctermbg=60		cterm=none		guifg=#242424	guibg=#3e3969	gui=none
-hi DiffText						ctermbg=53		cterm=none						guibg=#73186e	gui=none
-hi DiffChange					ctermbg=237										guibg=#382a37
+hi DiffAdd			ctermfg=120	ctermbg=236	guifg=#87af87	guibg=#262626	guifg=#87af87	cterm=reverse	gui=reverse
+hi DiffChange		ctermfg=230	ctermbg=236	guifg=#8787af	guibg=#262626	guifg=#8787af	cterm=reverse	gui=reverse
+hi DiffDelete		ctermfg=205	ctermbg=236	guifg=#af5f5f	guibg=#262626	guifg=#af5f5f	cterm=reverse	gui=reverse
+hi DiffText			ctermfg=39	ctermbg=236	guifg=#ff8700	guibg=#262626	guifg=#ff8700	cterm=reverse	gui=reverse
 
 "hi CursorIM
 hi Directory	ctermfg=229		ctermbg=232
